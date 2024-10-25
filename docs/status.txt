@@ -1,0 +1,17 @@
+shaniep@LAPTOP-NG0NE5SJ:~$ ls
+CEN4020-assignment2  congencia  hubspot-theme-starter  seminex
+shaniep@LAPTOP-NG0NE5SJ:~$ cd CEN4020-assignment2
+shaniep@LAPTOP-NG0NE5SJ:~/CEN4020-assignment2$ ls
+Bicycle.cpp  Bicycle.h  Car.cpp  Car.h  PoweredVehicle.cpp  PoweredVehicle.h  README.md  Vehicle.cpp  Vehicle.h  main.cpp
+shaniep@LAPTOP-NG0NE5SJ:~/CEN4020-assignment2$ code README.md
+shaniep@LAPTOP-NG0NE5SJ:~/CEN4020-assignment2$ git add .
+shaniep@LAPTOP-NG0NE5SJ:~/CEN4020-assignment2$ git commit -m "Repository owner information added to README.md"
+[master 6a6a3de] Repository owner information added to README.md
+ 1 file changed, 2 insertions(+)
+shaniep@LAPTOP-NG0NE5SJ:~/CEN4020-assignment2$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+shaniep@LAPTOP-NG0NE5SJ:~/CEN4020-assignment2$ mkdir docs
